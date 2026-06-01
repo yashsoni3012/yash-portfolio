@@ -510,13 +510,7 @@ export default function Portfolio() {
         />
         <div className="max-w-6xl mx-auto w-full pt-20">
           <div className="max-w-3xl">
-            <div
-              className="inline-flex items-center gap-2 px-4 py-2 rounded-full border border-cyan-500/30 bg-cyan-500/5 mb-8"
-              style={{ animation: "fadeDown 0.8s ease both" }}
-            >
-              <span className="w-2 h-2 rounded-full bg-green-400 animate-pulse" />
-             
-            </div>
+            
 
             <h1
               className="text-5xl md:text-7xl lg:text-8xl font-extrabold leading-none mb-6 tracking-tight"
@@ -578,13 +572,7 @@ export default function Portfolio() {
           </div>
         </div>
 
-        {/* Scroll indicator */}
-        <div className="absolute bottom-10 left-1/2 -translate-x-1/2 flex flex-col items-center gap-2 animate-bounce">
-          <span className="text-xs font-mono text-slate-600 tracking-widest">
-            SCROLL
-          </span>
-          <div className="w-px h-8 bg-gradient-to-b from-slate-600 to-transparent" />
-        </div>
+       
       </section>
 
       {/* ── ABOUT ── */}
@@ -776,7 +764,7 @@ export default function Portfolio() {
                 href="mailto:yashranpura3@gmail.com"
                 className="mt-8 w-full block text-center px-6 py-4 rounded-xl bg-gradient-to-r from-cyan-500 to-cyan-400 text-slate-900 font-bold tracking-wide hover:from-cyan-400 hover:to-cyan-300 transition-all duration-300 hover:shadow-xl hover:shadow-cyan-400/30 hover:-translate-y-0.5"
               >
-                Send Me a Message ↗
+                Send Me a Message
               </a>
             </div>
           </Reveal>
