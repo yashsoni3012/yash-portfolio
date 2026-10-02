@@ -155,7 +155,7 @@ export default function Hero() {
           </motion.div>
         </div>
         <motion.div {...step(1.6)}><Stories /></motion.div>
-      </div>
+      </div>  
     </section>
   )
 }
