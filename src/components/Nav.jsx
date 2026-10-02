@@ -15,7 +15,8 @@ export default function Nav() {
     <header className={`fixed inset-x-0 top-0 z-50 transition-colors duration-500 ${solid || open ? 'bg-ink/80 backdrop-blur-md' : ''}`}>
       <motion.div style={{ scaleX: bar }} className="absolute bottom-0 left-0 h-px w-full origin-left bg-signal" />
       <nav aria-label="Primary" className="mx-auto flex max-w-6xl items-center justify-between px-6 py-4">
-        <a href="#top" className="font-mono text-sm">yr<span className="text-signal">/</span>dev</a>
+        <a href="#top" className="font-mono text-sm">yr</a>
+          {/* <span className="text-signal">/</span>dev */}
         <ul className="hidden gap-8 md:flex">
           {links.map(([id, l]) => (
             <li key={id} className="relative">
